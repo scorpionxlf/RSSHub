@@ -6,7 +6,7 @@ import got from '@/utils/got';
 import { parseDate } from '@/utils/parse-date';
 import timezone from '@/utils/timezone';
 
-const rootUrl = 'https://www.1lou.me';
+const rootUrl = 'https://www.1lou.one';
 
 export const handler = async (ctx) => {
     const { params } = ctx.req.param();
