@@ -136,7 +136,7 @@ export const route: Route = {
     },
     radar: [
         {
-            source: ['1lou.me/:params'],
+            source: ['1lou.one/:params'],
             target: (_, url) => {
                 url = new URL(url);
 
